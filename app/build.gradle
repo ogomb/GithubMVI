@@ -50,4 +50,11 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'androidx.appcompat:appcompat:1.0.2'
+
+    //Koin
+    implementation "org.koin:koin-android:$koin_version"
+    // Support for Android scopes
+    implementation "org.koin:koin-androidx-scope:$koin_version"
+    // Support for Android ViewModels
+    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
 }

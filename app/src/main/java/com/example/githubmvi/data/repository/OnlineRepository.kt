@@ -1,4 +1,4 @@
-package com.example.githubmvi.data
+package com.example.githubmvi.data.repository
 
 import com.example.githubmvi.data.model.GithubIssue
 import com.example.githubmvi.data.model.GithubRepo
