@@ -5,5 +5,5 @@ import java.util.*
 
 interface MviView <I: MviIntent, S:MviViewState>{
     fun intents():Observable<I>
-    fun render(states: Observable<S>)
+    fun render(states: S)
 }
